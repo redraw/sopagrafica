@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 @import url("font-awesome.min.css");
 /*
 	Big Picture by HTML5 UP
@@ -296,7 +297,7 @@ body.is-preload:after {
 
 /* Type */
 body, input, textarea, select {
-  font-family: "Source Sans Pro", "sans-serif";
+  font-family: "Nunito", "sans-serif";
   font-weight: 300;
   font-size: 18pt;
   line-height: 1.75em;
@@ -368,8 +369,8 @@ em, i {
 }
 
 a {
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out;
   color: #98c593;
 }
 
@@ -435,8 +436,8 @@ button {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
   background-color: #98c593;
   border: 0;
   border-radius: 3.5em;
@@ -621,8 +622,8 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  transition: border-color 0.1s ease-in-out, color 0.1s ease-in-out;
   color: #39454b;
   display: block;
   width: 100%;
@@ -1027,8 +1028,8 @@ table.default tfoot {
 
 .poptrox-popup .nav-next,
 .poptrox-popup .nav-previous {
-  -webkit-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
   position: absolute;
   top: 0;
   width: 50%;
@@ -1085,8 +1086,8 @@ table.default tfoot {
 }
 
 .poptrox-popup .closer {
-  -webkit-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
   position: absolute;
   top: 0;
   right: 0;
@@ -1581,8 +1582,8 @@ body {
 }
 
 .main.style1 > .content {
-  -webkit-transition: opacity 1s ease;
-  transition: opacity 1s ease;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   opacity: 1.0;
@@ -1609,10 +1610,10 @@ body {
 }
 
 .main.style2 > .content {
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   position: relative;
@@ -1864,10 +1865,10 @@ body.is-touch .main {
 }
 
 #contacto .box {
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-transform: translateY(0);
   transform: translateY(0);
   position: relative;
