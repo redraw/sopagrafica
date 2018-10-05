@@ -3,8 +3,9 @@
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
+@import url('//fonts.googleapis.com/css?family=Nunito');
+@import url("//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
 @import url('font-awesome.min.css');
 
 /*
@@ -108,4 +109,10 @@
 				padding: 1em 1em 2em 1em;
 			}
 		}
+	}
+
+	.carousel cite {
+		font-size: 0.8em;
+		font-weight: bold;
+		font-style: italic;
 	}
