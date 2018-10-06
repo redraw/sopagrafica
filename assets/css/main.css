@@ -1478,6 +1478,10 @@ body.is-touch .poptrox-popup .closer {
   font-size: 1.25em;
 }
 
+#header h1 img {
+  vertical-align: middle;
+}
+
 #header nav {
   position: absolute;
   right: 1em;
